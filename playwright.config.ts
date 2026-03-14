@@ -8,7 +8,7 @@ export default defineConfig({
   reporter: 'html',             // HTML report at playwright-report/index.html
 
   use: {
-    baseURL: 'http://localhost:3000', // ← Update this to your app's URL
+    baseURL: 'https://the-internet.herokuapp.com', // ← Update this to your app's URL
     trace: 'on-first-retry',         // Record trace on first retry
     screenshot: 'only-on-failure',   // Screenshot on failure
   },
